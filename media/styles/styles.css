@@ -17,7 +17,7 @@ footer {
     background-size: cover;
 }
 
-/* Navbar */ 
+/* Navbar
 
 .navalert-container {
     position: absolute;
@@ -37,4 +37,30 @@ footer {
 
 .navbar .navbar-toggler {
     border: 0;
+}
+
+ */
+
+/** Appartment Styling **/
+
+/** Rates Styling **/
+
+.rates {
+    min-height: 100vh;
+}
+
+div.row>div>div.row {
+    margin-bottom: 15px;
+}
+
+/** Place anchors below Nav **/
+
+target:before {
+    display: block;
+    content: " ";
+    margin-top: -75px;
+    height: 150px;
+    visibility: hidden;
+}
+
 }
