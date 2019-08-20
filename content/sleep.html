@@ -26,7 +26,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sleep</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="sleep.html">Appartment</a>
-                        <a class="dropdown-item" href="sleep.html#rates">Rates</a>
+                        <a class="dropdown-item active" href="sleep.html#rates" data-trigger-button="#toggler">Rates</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -66,9 +66,9 @@
                 </div>
                 <div class="text-center">
                     <h2>Hear the Sea & Feel Relaxed</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum numquam molestiae, eveniet totam hic iure, blanditiis porro consequatur et voluptate nobis vitae praesentium quasi. Asperiores architecto accusamus repellendus similique,
-                            facilis mollitia sit sunt delectus iure quasi obcaecati deleniti corrupti ipsum magni quas? Officia possimus odio aperiam, error ad sed, repudiandae!</p>
-                        <span><a href="#sleep">Sleep</a>   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum numquam molestiae, eveniet totam hic iure, blanditiis porro consequatur et voluptate nobis vitae praesentium quasi. Asperiores architecto accusamus repellendus similique,
+                        facilis mollitia sit sunt delectus iure quasi obcaecati deleniti corrupti ipsum magni quas? Officia possimus odio aperiam, error ad sed, repudiandae!</p>
+                    <span><a href="#sleep">Sleep</a>   
                         <a href="#rates">Our Rates</a></span>
                 </div>
             </div>
@@ -122,10 +122,11 @@
     <section class="rates" id="rates">
         <div class="container">
             <h2 class="text-center">Rates</h2>
+            <hr class="h2-spacer">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum reiciendis ipsa non dicta pariatur et ea vel sed totam numquam.</p>
         </div>
-        <div class="container">
-            <table class="table table-sm table-responsive">
+        <div class="container table-responsive">
+            <table class="table table-sm">
                 <caption>*Rates per Night/2 Persons // **Rates per Stay</caption>
                 <thead>
                     <tr>
@@ -231,6 +232,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha256-jGAkJO3hvqIDc4nIY1sfh/FPbV+UK+1N+xJJg6zzr7A=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+    <!-- Fix Bug for Same Page Anchors ( https://bootstrapstudio.io/forums/topic/collapsed-navbar-wont-close-with-same-page-anchors/#post-11062 )-->
+
+    <script>
+        $("body").on("click", "[data-trigger-button]", function() {
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                var $this = $(this),
+                    cNavButton = $this.data("trigger-button");
+                $(cNavButton).trigger('click');
+            }
+        });
+    </script>
+    <!-- Picture in Modal -->
+
 
     <script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -238,6 +252,7 @@
             $(this).ekkoLightbox();
         });
     </script>
+
 </body>
 
 </html>
