@@ -1,9 +1,14 @@
-nav {
+.navbar {
     background-color: #f5f5f5;
+    padding: .25rem 0.25rem;
 }
 
-footer {
+
+.footer {
     background-color: #f5f5f5;
+}
+.firstView {
+    height: 100vh;
 }
 
 .carousel-item {
@@ -17,31 +22,14 @@ footer {
     background-size: cover;
 }
 
-/* Navbar
-
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.navbar {
-    margin-bottom: 0:
-    border: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: rgb(0,0,0,0.25)
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
- */
 
 /** Appartment Styling **/
+
+.appartment {
+    background-color: #f5f5f5;
+    margin: auto;
+    
+}
 
 /** Rates Styling **/
 
@@ -55,12 +43,13 @@ div.row>div>div.row {
 
 /** Place anchors below Nav **/
 
-target:before {
-    display: block;
-    content: " ";
-    margin-top: -75px;
-    height: 150px;
-    visibility: hidden;
-}
 
+/** Spacer **/
+
+.h2-spacer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid #65c5fe;
+    width: 50px;
 }
