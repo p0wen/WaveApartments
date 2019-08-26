@@ -21,15 +21,25 @@
     background-size: cover;
 }
 
+.body {
+    font-family: 'Roboto', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/** Padding for in-page ID-Links **/
+
+.scrollpad {
+    padding-top: 85px;
+}
 /** Appartment Styling **/
 
 .appartment {
     background-color: #f5f5f5;
     margin: auto;
-    padding-top: 20px;
-    
-    
+    min-height: 100vh;
 }
 
 /** Rates Styling **/
