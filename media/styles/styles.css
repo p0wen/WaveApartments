@@ -64,3 +64,24 @@ div.row>div>div.row {
     border-top: 5px solid #65c5fe;
     width: 50px;
 }
+
+/** Text on Picture **/ 
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    border: 2px solid #000000;
+    width: auto;
+    height: auto;
+}
+
+.toned-down {
+    opacity: 0.3;
+}
+
+.pageHeader {
+    padding-top: 25px;
+}
