@@ -85,3 +85,11 @@ div.row>div>div.row {
 .pageHeader {
     padding-top: 25px;
 }
+
+/** Buttons **/
+
+.btn-info {
+    color: #fff;
+    background-color: #65c5fe;
+    border-color: #65c5fe;
+}
