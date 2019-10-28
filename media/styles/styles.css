@@ -29,6 +29,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Indie Flower', cursive;
 }
 
+/** Text Styling **/
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #65c5fe;
+}
+
 /** Padding for in-page ID-Links **/
 
 .scrollpad {
@@ -92,8 +100,4 @@ div.row>div>div.row {
     color: #fff;
     background-color: #65c5fe;
     border-color: #65c5fe;
-}
-
-.btn-wave {
-    
 }
