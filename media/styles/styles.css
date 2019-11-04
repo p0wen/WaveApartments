@@ -47,13 +47,13 @@ h6 {
 .appartment {
     background-color: #f5f5f5;
     margin: auto;
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 /** Rates Styling **/
 
 .rates {
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 div.row>div>div.row {

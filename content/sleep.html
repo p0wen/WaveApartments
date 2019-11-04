@@ -51,9 +51,9 @@
             <div class="text-center">
                 <h2>Sleep & Rates</h2>
                 <hr class="h2-spacer">
-                <p>Situated only 200 meters away from the beach … our appartment is the perfect get away from the hectic day to day business. From a logisitical standpoint the Wave Apparment is a great base camp for your vacation. The apparment is fully
+                <p  class="lead">Situated only 200 meters away from the beach … our appartment is the perfect get away from the hectic day to day business. From a logisitical standpoint the Wave Apparment is a great base camp for your vacation. The apparment is fully
                     equipped and will provide everything necessary for everlasting memories.</p>
-                <a role="button" class="btn btn-outline-secondary" href="sleep.html#sleep">Appartment</a>
+                <a role="button" class="btn btn-outline-secondary" href="sleep.html#sleep">Sleep</a>
                 <a role="button" class="btn btn-outline-secondary" href="sleep.html#rates">Rates</a><br>
                 <br>
             </div>
@@ -130,7 +130,7 @@
         <div class="container">
             <h2 class="text-center scrollpad">Rates</h2>
             <hr class="h2-spacer">
-            <p class="lead">All the rates include exclusive use of the appartment. Additional we charge for the cleaning at the end of the stay. Bedding and towels can be provided if necessary. We are looking forward to hosting you!</p>
+            <p>All the rates include exclusive use of the appartment. Additional we charge for the cleaning at the end of the stay. Bedding and towels can be provided if necessary. We are looking forward to hosting you!</p>
         </div>
         <div class="container table-responsive">
             <table class="table table-sm">
@@ -256,17 +256,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha256-jGAkJO3hvqIDc4nIY1sfh/FPbV+UK+1N+xJJg6zzr7A=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
-    <!-- Fix Bug for Same Page Anchors ( https://bootstrapstudio.io/forums/topic/collapsed-navbar-wont-close-with-same-page-anchors/#post-11062 )-->
-
-    <script>
-        $("body").on("click", "[data-trigger-button]", function() {
-            if (window.matchMedia("(max-width: 767px)").matches) {
-                var $this = $(this),
-                    cNavButton = $this.data("trigger-button");
-                $(cNavButton).trigger('click');
-            }
-        });
-    </script>
+    
     <!-- Picture in Modal -->
 
 
