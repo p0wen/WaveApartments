@@ -35,6 +35,9 @@ h6 {
     font-family: 'Indie Flower', cursive;
 }
 
+.boxShade {
+    background-color: rgba(0,0,0,0.15);
+}
 
 /** Padding for in-page ID-Links **/
 
@@ -113,6 +116,9 @@ div.row>div>div.row {
 
 .flip-box {
   background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
 
@@ -146,4 +152,5 @@ div.row>div>div.row {
   color: white;
   transform: rotateY(180deg);
 }
+
 </style>
