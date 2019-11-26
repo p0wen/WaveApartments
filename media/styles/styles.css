@@ -5,6 +5,9 @@
 
 .footer {
     background-color: #f5f5f5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .firstView {
@@ -45,11 +48,15 @@ h6 {
     padding-top: 85px;
 }
 
-/** Appartment Styling **/
+/** Page Styling **/
 
 .appartment {
     background-color: #f5f5f5;
     margin: auto;
+    padding-bottom: 15px;
+}
+
+.paddingSurf {
     padding-bottom: 15px;
 }
 
