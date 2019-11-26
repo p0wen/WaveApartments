@@ -12,6 +12,8 @@ The goal of the design and user experience is to make it as easy as possible to 
 
 The visitor of the sites is being presented with beautiful pictures of the area to trigger an desire to have a vacation in the wave appartmens. Furthermore the visitor should get a good idea of what he can do and where he can enjoy local dishes. 
 
+The wireframes were sketched in Balsamiq Mockups and can be found [here](https://github.com/p0wen/1milestone/tree/master/wireframes)
+
 ## Technologies
 
 1. HTML
