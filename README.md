@@ -7,6 +7,8 @@ This sites represents the holiday appartments of Wave Appartments in Sankt Peter
 ## Demo
 A live demo can be foud [here](https://p0wen.github.io/1milestone/index.html "Wave Appartments").
 
+![alt text](https://github.com/p0wen/1milestone/blob/master/media/portfolioview.gif "WaveApartments Demo")
+
 ## UX
 The goal of the design and user experience is to make it as easy as possible to access information about the appartment and ab about the destination while always maintaining the option to send a booking request right away. They color scheme with light grey, white and turquoise highlights is used to present an positive and modern look and feel. 
 
@@ -43,7 +45,7 @@ As a User I want to know where the apartment is so that i find it right away.
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/p0wen/1milestone.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/p0wen/1milestone.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
 
