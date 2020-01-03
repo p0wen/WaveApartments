@@ -53,7 +53,10 @@ As a User I want to know where the apartment is so that i find it right away.
 
 ## Testing
 
-
+### Validation through W3 Validator and Jigsaw CSS
+### Manual User Testing 
+### "Crowd" Testing
+### Peer-Code-Review through Code Institute
 
 ## Deployment
 
