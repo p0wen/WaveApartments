@@ -133,6 +133,11 @@ max-width:100%;
     perspective: 1000px;
 }
 
+.activityBoard {
+    width:300px;
+    height:200px;
+}
+
 /** Source of this idea: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php **/
 
 .flip-box .text {
@@ -158,6 +163,9 @@ max-width:100%;
 
 .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
 }
 
 .flip-box-front,
@@ -167,6 +175,8 @@ max-width:100%;
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;  
 }
 
 .flip-box-front {
