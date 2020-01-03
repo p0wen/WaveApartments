@@ -1,16 +1,16 @@
-# Wave Appartments - 1milestone
+# Wave Apartments - 1milestone
 
 1 Milestone Project for Code Institute - User-Centric Frontend Development
 
-This sites represents the holiday appartments of Wave Appartments in Sankt Peter Ording, Germany. The site gives the visitor an introduction to the apparment, area and activites around the area and allows to send a booking request to the host. 
+This sites represents the holiday Apartments of Wave Apartments in Sankt Peter Ording, Germany. The site gives the visitor an introduction to the apparment, area and activites around the area and allows to send a booking request to the host. 
 
 ## Demo
-A live demo can be foud [here](https://p0wen.github.io/1milestone/index.html "Wave Appartments").
+A live demo can be foud [here](https://p0wen.github.io/1milestone/index.html "Wave Apartments").
 
 ![alt text](https://github.com/p0wen/1milestone/blob/master/media/portfolioview.gif "WaveApartments Demo")
 
 ## UX
-The goal of the design and user experience is to make it as easy as possible to access information about the appartment and ab about the destination while always maintaining the option to send a booking request right away. They color scheme with light grey, white and turquoise highlights is used to present an positive and modern look and feel. 
+The goal of the design and user experience is to make it as easy as possible to access information about the Apartment and ab about the destination while always maintaining the option to send a booking request right away. They color scheme with light grey, white and turquoise highlights is used to present an positive and modern look and feel. 
 
 The visitor of the sites is being presented with beautiful pictures of the area to trigger an desire to have a vacation in the wave appartmens. Furthermore the visitor should get a good idea of what he can do and where he can enjoy local dishes. 
 
@@ -25,7 +25,7 @@ The wireframes were sketched in Balsamiq Mockups and can be found [here](https:/
 
 ## User Storys
 
-As a user I want to get an idea of how the appartments looks like, so that i now where i will be staying.
+As a user I want to get an idea of how the Apartments looks like, so that i now where i will be staying.
 
 As a User I want to know how much the Apartments costs so that I now if I can afford it.
 
