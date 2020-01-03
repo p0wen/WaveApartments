@@ -243,4 +243,15 @@ max-width:100%;
     align-items: center;
     align-content: center
 }
+
+.gmapIframe {
+width:100%;
+border:0;
+overflow:hidden;
+margin-top:0;
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+}
+
 </style>
