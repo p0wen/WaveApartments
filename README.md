@@ -5,23 +5,37 @@
 This sites represents the holiday Apartments of Wave Apartments in Sankt Peter Ording, Germany. The site gives the visitor an introduction to the apparment, area and activites around the area and allows to send a booking request to the host. 
 
 ## Demo
-A live demo can be foud [here](https://p0wen.github.io/1milestone/index.html "Wave Apartments").
+A live demo can be found here:
 
-![alt text](https://github.com/p0wen/1milestone/blob/master/media/portfolioview.gif "WaveApartments Demo")
+[![alt text](https://github.com/p0wen/WaveApartments/blob/master/assets/images/demo/portfolioview.gif?raw=true "WaveApartments Demo")](https://p0wen.github.io/WaveApartments/ "Wave Apartments")
 
 ## UX
 The goal of the design and user experience is to make it as easy as possible to access information about the Apartment and ab about the destination while always maintaining the option to send a booking request right away. They color scheme with light grey, white and turquoise highlights is used to present an positive and modern look and feel. 
 
 The visitor of the sites is being presented with beautiful pictures of the area to trigger an desire to have a vacation in the wave appartmens. Furthermore the visitor should get a good idea of what he can do and where he can enjoy local dishes. 
 
-The wireframes were sketched in Balsamiq Mockups and can be found [here](https://github.com/p0wen/1milestone/tree/master/wireframes)
+The wireframes were sketched in Balsamiq Mockups and can be found [here](https://github.com/p0wen/WaveApartments/tree/master/wireframes) or following the direct links:
+
+[Landing Page](https://github.com/p0wen/WaveApartments/blob/master/wireframes/Landing.png "Landing Page")
+
+[Sleep & Rates](https://github.com/p0wen/WaveApartments/blob/master/wireframes/Sleep.png "Sleep & Rates")
+
+[Eat & Drink](https://github.com/p0wen/WaveApartments/blob/master/wireframes/Eat.png "Eat & Drink")
+
+[Surf & Action](https://github.com/p0wen/WaveApartments/blob/master/wireframes/Surf.png "Surf & Action")
+
+[Contact](https://github.com/p0wen/WaveApartments/blob/master/wireframes/Contact.png "Contact")
 
 ## Technologies
 
 1. HTML
 2. CSS
-3. Bootstrap (v4.3.1)
+3. Bootstrap
 4. JavaScript
+5. Jquery
+6. Font Awesome
+7. PopperJS
+8. Google Fonts
 
 ## User Storys
 
