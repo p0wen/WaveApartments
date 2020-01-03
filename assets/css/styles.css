@@ -68,11 +68,10 @@ h6 {
     min-height: 85vh;
 }
 
-div.row>div>div.row {
-    margin-bottom: 15px;
+.table thead th {
+vertical-align: top;
 }
 
-/** Place anchors below Nav **/
 
 /** Spacer **/
 
@@ -86,17 +85,6 @@ div.row>div>div.row {
 
 /** Text on Picture **/
 
-.imgtext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000000;
-    border: 2px solid #000000;
-    width: auto;
-    height: auto;
-}
-
 .toned-down {
     opacity: 0.3;
 }
@@ -104,6 +92,13 @@ div.row>div>div.row {
 .pageHeader {
     padding-top: 25px;
 }
+
+/** Image Formatting **/
+
+.maxwidth100 {
+max-width:100%;
+}
+
 
 /** Buttons **/
 
@@ -169,12 +164,12 @@ div.row>div>div.row {
 
 .flip-box-front {
     background-color: #bbb;
-    color: black;
+    color: #000;
 }
 
 .flip-box-back {
     background-color: #555;
-    color: white;
+    color: #fff;
     transform: rotateY(180deg);
     display: flex;
     flex-wrap: wrap;
@@ -183,5 +178,4 @@ div.row>div>div.row {
     align-items: center;
     align-content: center
 }
-
 </style>
