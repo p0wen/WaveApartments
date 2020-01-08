@@ -93,11 +93,11 @@ vertical-align: top;
 }
 
 .btn-outline-success.focus, .btn-outline-success:focus {
-    box-shadow: 0 0 0 0.2rem #0062cc;
+    box-shadow: 0 0 0 0.1rem #3dbaff;
 }
 .btn.focus, .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem #0062cc;
+    box-shadow: 0 0 0 0.1rem #3dbaff;
 }
 
 .btn-primary {
@@ -113,7 +113,7 @@ vertical-align: top;
 }
 
 .btn-primary.focus, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem #1491d4;
+    box-shadow: 0 0 0 0.1rem #1491d4;
 }
 
 /** Spacer **/
