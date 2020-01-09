@@ -52,11 +52,27 @@ As a User I want to get information about local restaurants so that  I don't hav
 As a User I want to know where the apartment is so that i find it right away.
 
 ## Testing
+Testing was undertaken in different ways. First of all manual testing by the developer was done. Afterwards a "crowd" test was initiated. After some bugfixing the site was reviewed by code-institute participants and tutors. And finally validation-tools from W3 were used.
 
-### Validation through W3 Validator and Jigsaw CSS
 ### Manual User Testing 
+Manual testing was undertaken with a small set of test cases on different devices (Mac, iPhone, iPad) and with different browsers (Safari, Chrome, Brave). The following test cases where used:
+
+1. Check caroussel on landing page
+2. Check booking form in nav
+3. Check in page links for "Sleep & Rates" & "Eat & Drink"
+4. Validate Formcontrol
+5. Check Flipcard function in "Surf & Action"
+6. Validate links
+
 ### "Crowd" Testing
+The page was spread within friends and family to collection feedback about what the users like/dislike and if errors/bugs were identified. Users reported that the liked the clean and light design of the page. A couple of errors were identified, e.g.:
+1. Active site was not marked in Navbar 
+2. Flipcard feature did not work on all Browsers `-webkit-`had to be added.
+Minor details were reported and adjusted.
 ### Peer-Code-Review through Code Institute
+Using the community and getting input from other developers was used to polish the code and identified not so obvious errors which were hidden in the code. This lead to cleaning up the html code and refactoring the css.
+
+
 
 ## Deployment
 
