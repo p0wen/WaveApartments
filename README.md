@@ -2,7 +2,7 @@
 
 1 Milestone Project for Code Institute - User-Centric Frontend Development
 
-This sites represents the holiday Apartments of Wave Apartments in Sankt Peter Ording, Germany. The site gives the visitor an introduction to the apparment, area and activites around the area and allows to send a booking request to the host. 
+This sites represents the holiday Apartments of Wave Apartments in Sankt Peter Ording, Germany. The site gives the visitor an introduction to the apartment, area and activites around the area and allows to send a booking request to the host. 
 
 ## Demo
 A live demo can be found here:
@@ -12,7 +12,7 @@ A live demo can be found here:
 ## UX
 The goal of the design and user experience is to make it as easy as possible to access information about the Apartment and ab about the destination while always maintaining the option to send a booking request right away. They color scheme with light grey, white and turquoise highlights is used to present an positive and modern look and feel. 
 
-The visitor of the sites is being presented with beautiful pictures of the area to trigger an desire to have a vacation in the wave appartmens. Furthermore the visitor should get a good idea of what he can do and where he can enjoy local dishes. 
+The visitor of the sites is being presented with beautiful pictures of the area to trigger an desire to have a vacation in the wave apartmens. Furthermore the visitor should get a good idea of what he can do and where he can enjoy local dishes. 
 
 The wireframes were sketched in Balsamiq Mockups and can be found [here](https://github.com/p0wen/WaveApartments/tree/master/wireframes) or following the direct links:
 
@@ -37,7 +37,7 @@ The wireframes were sketched in Balsamiq Mockups and can be found [here](https:/
 7. PopperJS
 8. Google Fonts
 
-## User Storys
+## User Stories
 
 As a user I want to get an idea of how the Apartments looks like, so that i now where i will be staying.
 
@@ -69,16 +69,24 @@ The page was spread within friends and family to collection feedback about what 
 1. Active site was not marked in Navbar 
 2. Flipcard feature did not work on all Browsers `-webkit-`had to be added.
 Minor details were reported and adjusted.
+
 ### Peer-Code-Review through Code Institute
 Using the community and getting input from other developers was used to polish the code and identified not so obvious errors which were hidden in the code. This lead to cleaning up the html code and refactoring the css.
 
+## Features to come
 
+While finishing up the page the following features were identified to be added in the future:
+
+1. Create german translation and implement a language toggle
+2. Connect Booking Form in Modal and on Contact-Page to a email host or database
+3. Finalize links to Legal (Contact, Privacy, Terms) and Social Media
+4. Make use of `Polyfills` so that the date picker works on all browsers
 
 ## Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/p0wen/1milestone.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/p0wen/WaveApartments.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
 
@@ -88,7 +96,7 @@ The whole content for this site was written by me.
 
 #### Media
 
-All photos were taken from Pexels, a stock image library, with the exception of the photos of the apparment pictures and pictures of the restaurant recommendations. 
+All photos were taken from Pexels, a stock image library, with the exception of the photos of the apartment pictures and pictures of the restaurant recommendations. 
 
 #### Acknowledgments
 
